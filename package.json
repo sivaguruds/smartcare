@@ -1,0 +1,45 @@
+{
+  "name": "smartcare-webapp",
+  "version": "1.0.0",
+  "description": "Web application for SmartCare API",
+  "productName": "SmartCare Web App",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "Mugilan Nagarajan <pondybiz14@gmail.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "chart.js": "^2.7.2",
+    "downloadjs": "^1.4.7",
+    "google-libphonenumber": "^3.1.6",
+    "moment": "^2.22.1",
+    "moment-timezone": "^0.5.16",
+    "vue-carousel": "^0.14.0",
+    "vue-chartjs": "^3.3.1",
+    "vue-core-image-upload": "^2.4.5",
+    "vue-full-calendar": "^2.5.4",
+    "vue-password": "^1.1.2",
+    "vue-recaptcha": "^1.1.0",
+    "vue-star-rating": "^1.6.0",
+    "vuelidate": "^0.7.4"
+  },
+  "devDependencies": {
+    "quasar-cli": "^0.15.2",
+    "strip-ansi": "^3.0.1"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ],
+  "globals": {
+    "$": true,
+    "jQuery": true
+  }
+}
